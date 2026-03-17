@@ -69,44 +69,44 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 ================================================================ */
 const projects = [
   {
-    tag:'Website', title:'ETERNA NL', year:'2024', live:'https://eternanl.com/',
+    tag:'Website', title:'ETERNA NL', year:'', live:'https://eternanl.com/',
     desc:'Developed and maintained a full-featured business website for ETERNA NL, delivering a polished online presence with fast load times, responsive layouts, and a design that reflects the brand\'s identity. Increased client reach and productivity by 10%.',
-    pills:['React','Node.js','Vercel','CSS Modules','SEO'],
+    pills:['React','Node.js','Vercel','Javascript','SEO','SaaS'],
     main:'img/Eterna/Eterna4.png',
     shots:['img/Eterna/Eterna1.png','img/Eterna/Eterna2.png','img/Eterna/Eterna3.png','img/Eterna/Eterna5.png','img/Eterna/Eterna6.png']
   },
   {
-    tag:'UI / UX', title:'Standard Healthcare', year:'2024', live:'https://standardhealthcareplus.com/',
-    desc:'Revamped the UI and UX of the Standard Healthcare platform to improve usability for both staff and patients. Streamlined navigation, improved accessibility compliance, and redesigned key workflows — resulting in better client satisfaction and lead conversion.',
-    pills:['TypeScript','Figma','CSS','Accessibility','React'],
+    tag:'Automation', title:'Standard Healthcare', year:'', live:'https://standardhealthcareplus.com/',
+    desc:'Designed and implemented an AI-powered chatbot automation on the Standard Healthcare platform, reducing patient wait times and enhancing support efficiency. The chatbot intelligently provides instant responses, resulting in quicker consultations.',
+    pills:['TypeScript','SaaS','Conversational AI','CRM','React'],
     main:'img/SHC/shc1.png',
     shots:['img/SHC/shc2.png','img/SHC/shc3.png','img/SHC/shc4.png','img/SHC/shc5.png']
   },
   {
-    tag:'Automation', title:'Bistro 64', year:'2024', live:'https://bistro64.aboova.com/',
-    desc:'Collaborated with the Sagacity team to automate key operational processes on their platform. Implemented workflow automation scripts, integrated third-party APIs, and reduced repetitive manual tasks — converting more leads into clients.',
-    pills:['Node.js','AWS Lambda','REST API','Automation','CI/CD'],
+    tag:'Automation', title:'Bistro 64', year:'', live:'https://bistro64.aboova.com/',
+    desc:'Collaborated with a team to automate key operational processes on their platform. Implemented feedback automation tool by integrated third-party APIs, and reduced repetitive manual tasks — converting more leads into clients.',
+    pills:['Node.js','Aws','CRM','REST API','Automation','CI/CD','SaaS'],
     main:'img/Bistro/bistro1.png',
     shots:['img/Bistro/bistro2.png','img/Bistro/bistro3.png','img/Bistro/bistro4.png',]
   },
   {
-    tag:'AI / SaaS', title:'Yman Auto', year:'2025', live:'https://ymanautosalesllc.com/',
+    tag:'AI / SaaS', title:'Yman Auto', year:'', live:'https://ymanautosalesllc.com/',
     desc:'Built an end-to-end automated lead nurturing and sales pipeline for Aboova Digital Solutions, integrating AI/LLM tools for personalized outreach. The system boosted lead generation by 10% and improved overall business performance by 30%.',
-    pills:['LLM','TypeScript','AWS','OpenAI API','CRM Integration'],
+    pills:['GoHighlevel','TypeScript','AWS','AI','CRM Integration'],
     main:'img/Yman Auto/yman1.png',
     shots:['img/Yman Auto/yman2.png','img/Yman Auto/yman3.png','img/Yman Auto/yman4.png','img/Yman Auto/yman5.png']
   },
   {
-    tag:'Website', title:'Cloud-Native Infrastructure', year:'2023', live:'https://boba-dc.com/',
+    tag:'Website', title:'BOBA-DC', year:'', live:'https://bobadc.org/',
     desc:'Architected a production-ready, cloud-native backend infrastructure for a high-traffic SaaS product. Designed for horizontal scalability with containerized microservices, load balancing, automated deployments, and zero-downtime rollouts.',
-    pills:['AWS','Docker','Node.js','PostgreSQL','Terraform'],
+    pills:['AWS','SaaS','Node.js','MongoDB','GoHighlevel'],
     main:'img/Boba-DC/boba1.png',
     shots:['img/Boba-DC/boba2.png','img/Boba-DC/boba3.png','img/Boba-DC/boba4.png','img/Boba-DC/boba5.png']
   },
   {
-    tag:'Full Stack', title:'Cleanso Therapy', year:'2023', live:'https://ctpoglobal.com/',
-    desc:'Delivered a sleek, minimalistic, and fast full-stack web platform for Soccopoco. Praised for its creative design direction, clean codebase, and the seamless developer-client collaboration throughout the entire build.',
-    pills:['React','Node.js','TypeScript','REST API','Vercel'],
+    tag:'Website', title:'Cleanso Therapy', year:'', live:'https://ctpoglobal.com/',
+    desc:'Delivered a sleek, minimalistic, and fast full-stack web platform for Cleanso Therapy. Its creative design direction, clean codebase, and the seamless developer-client collaboration was greatly appreciated throughout the entire build.',
+    pills:['React','Node.js','TypeScript','REST API','Javascript'],
     main:'img/CTPO/ctpo1.png',
     shots:['img/CTPO/ctpo2.png','img/CTPO/ctpo3.png','img/CTPO/ctpo4.png','img/CTPO/ctpo5.png','img/CTPO/ctpo6.png']
   }
